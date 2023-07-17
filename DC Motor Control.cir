@@ -1,0 +1,22 @@
+* E:\Academics BUET\A Study 2-2\PSPICE\Project\pspice\final\final final\DC Motor Control.sch
+
+* Schematics Version 9.2
+* Tue Feb 22 21:37:44 2022
+
+
+
+** Analysis setup **
+.tran 0.1n 0.5s 0 0.1m
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "DC Motor Control.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END
